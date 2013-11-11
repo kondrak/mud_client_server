@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.pde.ui.RuntimeWorkbench">
+<stringAttribute key="product" value="org.eclipse.sdk.ide"/>
+<stringAttribute key="pde.version" value="3.2a"/>
+<booleanAttribute key="useProduct" value="true"/>
+<booleanAttribute key="default" value="true"/>
+<stringAttribute key="location" value="${workspace_loc}/../runtime-EclipseApplication"/>
+<stringAttribute key="org.eclipse.jdt.launching.SOURCE_PATH_PROVIDER" value="org.eclipse.pde.ui.workbenchClasspathProvider"/>
+<booleanAttribute key="askclear" value="true"/>
+<booleanAttribute key="usefeatures" value="false"/>
+<stringAttribute key="checked" value="[NONE]"/>
+<booleanAttribute key="clearws" value="false"/>
+</launchConfiguration>

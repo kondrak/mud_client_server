@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:change="http://www.eclipse.org/emf/2003/Change" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:org.eclipse.jem.internal.beaninfo.beaninfo="http:///org/eclipse/jem/internal/beaninfo/beaninfo.ecore" xmlns:org.eclipse.jem.java="java.xmi">
+  <objectChanges xsi:type="change:EObjectToChangesMapEntry" key="org.eclipse.jem.java:JavaClass java:/mud_networking#MUDPlayer">
+    <value xsi:type="change:FeatureChange" featureName="eAnnotations">
+      <listChanges xsi:type="change:ListChange" referenceValues="#//@objectsToAttach.0"/>
+    </value>
+    <value xsi:type="change:FeatureChange" featureName="eStructuralFeatures">
+      <listChanges xsi:type="change:ListChange" referenceValues="#//@objectsToAttach.1 #//@objectsToAttach.2 #//@objectsToAttach.3 #//@objectsToAttach.4 #//@objectsToAttach.5 #//@objectsToAttach.6 #//@objectsToAttach.7 #//@objectsToAttach.8 #//@objectsToAttach.9 #//@objectsToAttach.10 #//@objectsToAttach.11"/>
+    </value>
+  </objectChanges>
+  <objectsToAttach xsi:type="org.eclipse.jem.internal.beaninfo.beaninfo:BeanDecorator" implicitDecoratorFlag="IMPLICIT_DECORATOR"/>
+  <objectsToAttach xsi:type="ecore:EReference" name="connected" eType="org.eclipse.jem.java:JavaDataType java:/#boolean" unsettable="true">
+    <eAnnotations xsi:type="org.eclipse.jem.internal.beaninfo.beaninfo:PropertyDecorator" implicitlySetBits="52" implicitDecoratorFlag="IMPLICIT_DECORATOR_AND_FEATURE" readMethod="org.eclipse.jem.java:Method java:/mud_networking#MUDPlayer.isConnected("/>
+  </objectsToAttach>
+  <objectsToAttach xsi:type="ecore:EReference" name="loginStage" eType="org.eclipse.jem.java:JavaDataType java:/#int" unsettable="true">
+    <eAnnotations xsi:type="org.eclipse.jem.internal.beaninfo.beaninfo:PropertyDecorator" implicitlySetBits="52" implicitDecoratorFlag="IMPLICIT_DECORATOR_AND_FEATURE" readMethod="org.eclipse.jem.java:Method java:/mud_networking#MUDPlayer.getLoginStage("/>
+  </objectsToAttach>
+  <objectsToAttach xsi:type="ecore:EReference" name="welcomeText" eType="org.eclipse.jem.java:JavaClass java:/java.lang#String" unsettable="true">
+    <eAnnotations xsi:type="org.eclipse.jem.internal.beaninfo.beaninfo:PropertyDecorator" implicitlySetBits="52" implicitDecoratorFlag="IMPLICIT_DECORATOR_AND_FEATURE" readMethod="org.eclipse.jem.java:Method java:/mud_networking#MUDPlayer.getWelcomeText("/>
+  </objectsToAttach>
+  <objectsToAttach xsi:type="ecore:EReference" name="adjacentLocations" eType="org.eclipse.jem.java:ArrayType java:/java.lang#String[]" unsettable="true">
+    <eAnnotations xsi:type="org.eclipse.jem.internal.beaninfo.beaninfo:PropertyDecorator" implicitlySetBits="52" implicitDecoratorFlag="IMPLICIT_DECORATOR_AND_FEATURE" readMethod="org.eclipse.jem.java:Method java:/mud_networking#MUDPlayer.getAdjacentLocations("/>
+  </objectsToAttach>
+  <objectsToAttach xsi:type="ecore:EReference" name="locationPicture" eType="org.eclipse.jem.java:JavaClass java:/java.lang#String" unsettable="true">
+    <eAnnotations xsi:type="org.eclipse.jem.internal.beaninfo.beaninfo:PropertyDecorator" implicitlySetBits="52" implicitDecoratorFlag="IMPLICIT_DECORATOR_AND_FEATURE" readMethod="org.eclipse.jem.java:Method java:/mud_networking#MUDPlayer.getLocationPicture("/>
+  </objectsToAttach>
+  <objectsToAttach xsi:type="ecore:EReference" name="locationDescription" eType="org.eclipse.jem.java:JavaClass java:/java.lang#String" unsettable="true">
+    <eAnnotations xsi:type="org.eclipse.jem.internal.beaninfo.beaninfo:PropertyDecorator" implicitlySetBits="52" implicitDecoratorFlag="IMPLICIT_DECORATOR_AND_FEATURE" readMethod="org.eclipse.jem.java:Method java:/mud_networking#MUDPlayer.getLocationDescription("/>
+  </objectsToAttach>
+  <objectsToAttach xsi:type="ecore:EReference" name="locationName" eType="org.eclipse.jem.java:JavaClass java:/java.lang#String" unsettable="true">
+    <eAnnotations xsi:type="org.eclipse.jem.internal.beaninfo.beaninfo:PropertyDecorator" implicitlySetBits="52" implicitDecoratorFlag="IMPLICIT_DECORATOR_AND_FEATURE" readMethod="org.eclipse.jem.java:Method java:/mud_networking#MUDPlayer.getLocationName("/>
+  </objectsToAttach>
+  <objectsToAttach xsi:type="ecore:EReference" name="locationItems" eType="org.eclipse.jem.java:JavaClass java:/java.util#Vector" unsettable="true">
+    <eAnnotations xsi:type="org.eclipse.jem.internal.beaninfo.beaninfo:PropertyDecorator" implicitlySetBits="52" implicitDecoratorFlag="IMPLICIT_DECORATOR_AND_FEATURE" readMethod="org.eclipse.jem.java:Method java:/mud_networking#MUDPlayer.getLocationItems("/>
+  </objectsToAttach>
+  <objectsToAttach xsi:type="ecore:EReference" name="inventoryItemsList" eType="org.eclipse.jem.java:JavaClass java:/java.util#Vector" unsettable="true">
+    <eAnnotations xsi:type="org.eclipse.jem.internal.beaninfo.beaninfo:PropertyDecorator" implicitlySetBits="52" implicitDecoratorFlag="IMPLICIT_DECORATOR_AND_FEATURE" readMethod="org.eclipse.jem.java:Method java:/mud_networking#MUDPlayer.getInventoryItemsList("/>
+  </objectsToAttach>
+  <objectsToAttach xsi:type="ecore:EReference" name="locationPlayers" eType="org.eclipse.jem.java:JavaClass java:/java.util#Vector" unsettable="true">
+    <eAnnotations xsi:type="org.eclipse.jem.internal.beaninfo.beaninfo:PropertyDecorator" implicitlySetBits="52" implicitDecoratorFlag="IMPLICIT_DECORATOR_AND_FEATURE" readMethod="org.eclipse.jem.java:Method java:/mud_networking#MUDPlayer.getLocationPlayers("/>
+  </objectsToAttach>
+  <objectsToAttach xsi:type="ecore:EReference" name="playerPositions" eType="org.eclipse.jem.java:JavaClass java:/java.util#Vector" unsettable="true">
+    <eAnnotations xsi:type="org.eclipse.jem.internal.beaninfo.beaninfo:PropertyDecorator" implicitlySetBits="52" implicitDecoratorFlag="IMPLICIT_DECORATOR_AND_FEATURE" readMethod="org.eclipse.jem.java:Method java:/mud_networking#MUDPlayer.getPlayerPositions("/>
+  </objectsToAttach>
+</change:ChangeDescription>
